@@ -1,5 +1,5 @@
 {% set name = "amn" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/brsynth/amn_library/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 759a2e6e0947d3a7bd8f1bdb892a6e494a2d6b638890b2e961d1988e8ad135b6
+  sha256: d8dac4de94ec35efe0c183ad57c692a6e41e740f6ea987e3d3bfabd4c7750428
 
 build:
   number: 0
